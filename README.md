@@ -60,8 +60,3 @@ To set up the project, follow these steps:
 4. **Launch the Airflow web UI**:
    ```bash
    http://localhost:8080
-
-
-
-
-
