@@ -8,7 +8,6 @@ This project provides a robust data pipeline for extracting, transforming, and l
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
 - [System Setup](#system-setup)
-- [Video](#video)
 
 ## Overview
 
@@ -48,7 +47,21 @@ To set up the project, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/airscholar/RedditDataEngineering.git
+   git clone https://github.com/VipinReddy97/Reddit_AWS_Pipeline.git
+
+2. **Install the Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+3. **Start the Docker Containers**:
+   ```bash
+   docker-compose up -d
+
+4. **Launch the Airflow web UI**:
+   ```bash
+   http://localhost:8080
+
+
 
 
 
